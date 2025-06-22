@@ -35,3 +35,16 @@ A simple RESTful API for managing a library system built using **Express.js**, *
 
 ## 📂 Project Structure
 
+src/
+├── server.ts
+├── config/
+├── modules/
+│ ├── book/
+│ │ ├── book.interface.ts
+│ │ ├── book.model.ts
+│ │ ├── book.controller.ts
+│ │ └── book.route.ts
+│ └── borrow/
+│ ├── borrow.model.ts
+│ ├── borrow.controller.ts
+│ └── borrow.route.ts
