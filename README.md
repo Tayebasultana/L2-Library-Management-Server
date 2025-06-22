@@ -35,6 +35,7 @@ A simple RESTful API for managing a library system built using **Express.js**, *
 
 ## 📂 Project Structure
 
+```
 src/
 ├── server.ts
 ├── config/
@@ -48,3 +49,48 @@ src/
 │ ├── borrow.model.ts
 │ ├── borrow.controller.ts
 │ └── borrow.route.ts
+```
+
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/library-management-api.git
+cd library-management-api
+
+# Install dependencies
+npm install
+
+# Create environment file
+touch .env
+```
+## Add your MongoDB URI in .env:
+```
+DATABASE_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/library
+PORT=5000
+```
+## Now run the server:
+```
+# For development
+npm run dev
+
+# For production
+npm run build
+npm start
+```
+## ✅ Bonus Features
+- Mongoose validation
+
+- Aggregation pipeline
+
+- Filtering & sorting
+
+- Static/Instance method
+
+- Mongoose middleware
+
+- Clean API response structure
+
